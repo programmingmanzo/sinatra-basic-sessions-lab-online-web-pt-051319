@@ -4,7 +4,7 @@ class App < Sinatra::Base
 
     configure do 
         enable :sessions
-        set :session_secret, "atestsecretthatshouldbemoresecure"
+        set :session_secret, "onlydonefortestingpurposes"
     end
 
     get '/' do
